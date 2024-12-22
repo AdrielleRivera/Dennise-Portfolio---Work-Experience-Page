@@ -308,7 +308,7 @@ footer > p:first-of-type {
 .first-word{
     position: relative;
     top: 840px;
-    left:-200%;
+    left:-240%;
     font-family: "Patrick Hand", serif;
     font-size: 2rem;
     line-height: 1.5;
@@ -489,7 +489,7 @@ footer > p:first-of-type {
     top: 670px;
     left: -20%;
 }
-    
+
 
 
 
