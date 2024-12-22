@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Caveat+Brush&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,600;1,600&family=Patrick+Hand&family=Sofia&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
 * {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
@@ -221,14 +223,14 @@ footer > p:first-of-type {
     top: 2200px;
 }
 .twelveth-logo{
-max-width: 600px;
+    max-width: 600px;
     width: 90%;
     position: absolute;
     left: 15%;
     top: 220px;
 }
 .thirteenth-logo{
-max-width: 450px;
+    max-width: 450px;
     width: 80%;
     position: absolute;
     left: 57%;
@@ -236,7 +238,7 @@ max-width: 450px;
     z-index: 1;
 }
 .fourteenth-logo{
-max-width: 350px;
+    max-width: 350px;
     width: 100%;
     position: absolute;
     left: 39%;
@@ -250,8 +252,77 @@ max-width: 350px;
     left: 62%;
     top: 500px;
 }
+.work-experience-logos4 {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-top: auto;
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+    position: relative;
+    top: 3200px;
+}
+.sixteenth-logo{
+    max-width: 700px;
+    width: 90%;
+    position: absolute;
+    left: 62%;
+    top: 170px;
+}
+.seventeenth-logo{
+    max-width: 720px;
+    width: 80%;
+    position: absolute;
+    left: 45%;
+    top: 350px;
+    z-index: 1;
+}
+.eighteenth-logo{
+    max-width: 650px;
+    width: 100%;
+    position: absolute;
+    left: 55%;
+    top: 670px;
+    z-index: 1;
+}
+.nineteenth-logo{
+    max-width: 650px;
+    width: 80%;
+    position: absolute;
+    left: 13%;
+    top: 260px;
+    z-index: 2;
+}
+.twenteenth-logo{
+    max-width: 670px;
+    width: 80%;
+    position: absolute;
+    left: 15%;
+    top: 250px;
+}
+/*.twenty-one-logo{
+
+}
+*/
 
 
+.first-word{
+    position: relative;
+    top: 840px;
+    left:-200%;
+    font-family: "Patrick Hand", serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
+    display: inline-block;
+    transform: rotate(5deg); /* Adjust the angle to your preference */
+    word-wrap: break-word;
+    width: 15rem;
+}
+.first-word:hover{
+    transform: rotate(-5deg) scale(1.05); /* Slightly enlarge the text */
+    color: darkred; /* Change the text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
+}
 
 
 @media (max-width:991px){
@@ -357,7 +428,7 @@ max-width: 350px;
     top: 1900px;
 }
 .twelveth-logo{
-width:60%;
+    width:60%;
     top:-150px;
     left:1%;
     z-index: 1;
@@ -373,11 +444,52 @@ width:60%;
     left:5%;
 }
 .fifthteenth-logo{
-   width:75%;
+    width:75%;
     top:120px;
     left:25%;
     z-index: 1;
 }
+.work-experience-logos4 {
+    position: relative;   
+    top: 2300px;
+}
+.sixteenth-logo{
+    width:80%;
+    left: 35%;
+    top:100px;
+}
+.seventeenth-logo{
+    width:80%;
+    left: 20%;
+    top:230px;
+}
+.eighteenth-logo{
+    width:90%;
+    z-index: 3;
+    top: 600px;
+    left:45%;
+}
+.nineteenth-logo{
+    width:70%;
+    top: 290px;
+    left: 49%;
+}
+.twenteenth-logo{
+     width:65%;
+    top: 470px;
+    left: 2%;
+}
+/*.twenty-one-logo{
+
+}
+*/
+
+.first-word{
+    width:50%;
+    top: 670px;
+    left: -20%;
+}
+    
 
 
 
