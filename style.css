@@ -324,6 +324,60 @@ footer > p:first-of-type {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
 }
 
+.work-experience-logos5 {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-top: auto;
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+    position: relative;
+    top: 4100px;
+}
+.twenty-two-logo{
+    max-width: 650px;
+    width: 90%;
+    position: absolute;
+    left: 55%;
+    top: 110px;
+}
+.twenty-three-logo{
+    max-width: 550px;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 200px;
+    z-index: 1;
+}
+.twenty-four-logo{
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    left: 48%;
+    top: 350px;
+    z-index: 1;
+}
+.second-word{
+    position: relative;
+    top: 710px;
+    left:-170%;
+    font-family: "Patrick Hand", serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
+    display: inline-block;
+    transform: rotate(5deg); /* Adjust the angle to your preference */
+    word-wrap: break-word;
+    width: 15rem;
+}
+.second-word:hover{
+    transform: rotate(-5deg) scale(1.05); /* Slightly enlarge the text */
+    color: darkred; /* Change the text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
+}
+
+
+
+
 
 @media (max-width:991px){
     html{
@@ -393,7 +447,7 @@ footer > p:first-of-type {
 }
 .work-experience-logos2 {
      position: relative;   
-    top: 1250px;
+    top: 1300px;
 }
 .seventh-logo{
     width:70%;
@@ -425,7 +479,7 @@ footer > p:first-of-type {
 }
 .work-experience-logos3 {
     position: relative;   
-    top: 1900px;
+    top: 2000px;
 }
 .twelveth-logo{
     width:60%;
@@ -451,7 +505,7 @@ footer > p:first-of-type {
 }
 .work-experience-logos4 {
     position: relative;   
-    top: 2300px;
+    top: 2400px;
 }
 .sixteenth-logo{
     width:80%;
@@ -489,8 +543,34 @@ footer > p:first-of-type {
     top: 670px;
     left: -20%;
 }
+.work-experience-logos5 {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-top: auto;
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+    position: relative;
+    top: 3100px;
+}
+.twenty-two-logo{
+    width:80%;
+    left: 35%;
+}
+.twenty-three-logo{
+    width:65%;
+    left: 0%;
+    top:230px;
 
-
+}
+.twenty-four-logo{
+    width:65%;
+    left: 57%;
+    top:460px;
+}
+.second-word{
+    top: 600px;
+    left:-80%;
+}
 
 
 
