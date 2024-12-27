@@ -375,8 +375,56 @@ footer > p:first-of-type {
     color: darkred; /* Change the text color */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
 }
-
-
+.work-experience-logos6 {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-top: auto;
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+    position: relative;
+    top: 5000px;
+}
+.twenty-five-logo{
+    max-width: 650px;
+    width: 90%;
+    position: absolute;
+    left: 55%;
+    top: 110px;
+}
+.twenty-six-logo{
+    max-width: 650px;
+    width: 100%;
+    position: absolute;
+    left: 15%;
+    top: 200px;
+    z-index: 1;
+}
+.twenty-seventh-logo{
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    left: 55%;
+    top: 350px;
+    z-index: 1;
+}
+.third-word{
+    position: relative;
+    top: 710px;
+    left:-175%;
+    font-family: "Patrick Hand", serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
+    display: inline-block;
+    transform: rotate(5deg); /* Adjust the angle to your preference */
+    word-wrap: break-word;
+    width: 15rem;
+}
+.third-word:hover{
+    transform: rotate(-5deg) scale(1.05); /* Slightly enlarge the text */
+    color: darkred; /* Change the text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
+}
 
 
 
@@ -573,6 +621,36 @@ footer > p:first-of-type {
     left:-80%;
 }
 
+.work-experience-logos6 {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-top: auto;
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+    position: relative;
+    top: 3700px;
+}
+.twenty-five-logo{
+    width:80%;
+    left: 35%;
+    top: 150px;
+}
+.twenty-six-logo{
+     width:70%;
+    left: 2%;
+    top:280px;
+
+}
+.twenty-seventh-logo{
+    width: 70%;
+    left: 55%;
+    top:450px;
+    z-index: 1;
+}
+.third-word{
+    top: 600px;
+    left:-100%;
+}
 
 
 
