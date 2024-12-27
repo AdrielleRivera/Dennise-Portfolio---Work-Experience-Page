@@ -20,12 +20,14 @@ body {
 }
 
 nav {
-    width: 100%;     
+    width: 100%;
+    position: fixed; 
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 1rem 2rem;
     background: rgba(0, 0, 0, 0.8); /* Add contrast to navbar */
+    z-index: 5;
 }
 
 nav a {
