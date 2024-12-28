@@ -427,7 +427,82 @@ footer > p:first-of-type {
     color: darkred; /* Change the text color */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
 }
+.work-experience-logos7 {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-top: auto;
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+    position: relative;
+    top: 5900px;
+}
+.twenty-eight-logo{
+    max-width: 700px;
+    width: 90%;
+    position: absolute;
+    left: 62%;
+    top: 170px;
+}
+.twenty-nineth-logo{
+    max-width: 420px;
+    width: 80%;
+    position: absolute;
+    left: 68%;
+    top: 500px;
+    z-index: 1;
+}
+.thirty-logo{
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+    left: 38%;
+    top: 400px;
+    z-index: 1;
+}
+.thirty-one-logo{
+    max-width: 450px;
+    width: 80%;
+    position: absolute;
+    left: 9%;
+    top: 220px;
+    z-index: 2;
+}
+.thirty-two-logo{
+    max-width: 400px;
+    width: 80%;
+    position: absolute;
+    left: 14%;
+    top: 450px;
+    z-index: 3;
+}
+.thirty-three-logo{
+    max-width: 450px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 600px;
+    z-index: 1;
+}
 
+.forth-word{
+    position: relative;
+    top: 790px;
+    left:-220%;
+    font-family: "Patrick Hand", serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
+    display: inline-block;
+    transform: rotate(5deg); /* Adjust the angle to your preference */
+    word-wrap: break-word;
+    width: 15rem;
+    z-index:5;
+}
+.forth-word:hover{
+    transform: rotate(-5deg) scale(1.05); /* Slightly enlarge the text */
+    color: darkred; /* Change the text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
+}
 
 
 @media (max-width:991px){
@@ -580,7 +655,7 @@ footer > p:first-of-type {
     left: 49%;
 }
 .twenteenth-logo{
-     width:65%;
+    width:65%;
     top: 470px;
     left: 2%;
 }
@@ -652,6 +727,50 @@ footer > p:first-of-type {
 .third-word{
     top: 600px;
     left:-100%;
+}
+.work-experience-logos7 {
+   display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-top: auto;
+    margin-bottom: 20px; /* Adjust the spacing as needed */
+    position: relative;
+    top: 4300px;
+}
+.twenty-eight-logo{
+    width:80%;
+    left: 35%;
+    top:90px;
+}
+.twenty-nineth-logo{
+    width:50%;
+    left: 45%;
+    top:230px;
+    z-index:10;
+}
+.thirty-logo{
+    width:70%;
+    z-index: 11;
+    top: 300px;
+    left:5%;
+}
+.thirty-one-logo{
+     width:70%;
+    top: 380px;
+    left: 28%;
+    z-index: 12;
+}
+.thirty-two-logo{
+    width:60%;
+    top: 470px;
+    left: 2%;
+ z-index: 13;
+}
+.thirty-three-logo{
+    width:60%;
+    left: 50%;
+    top:620px;
+     z-index: 14;
 }
 
 
