@@ -772,7 +772,11 @@ footer > p:first-of-type {
     top:620px;
      z-index: 14;
 }
-
+.forth-word{
+    top: 800px;
+    left:-100%;
+     z-index: 15;
+}
 
 
 
